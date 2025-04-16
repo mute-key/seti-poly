@@ -1,0 +1,39 @@
+{
+	"name": "seti-poly",
+	"displayName": "Seti-Poly",
+	"description": "seti poly theme",
+	"version": "0.0.206",
+	"publisher": "mutekey",
+	"engines": {
+		"vscode": "^1.96.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mute-key/seti-poly"
+	},
+	"content": {
+		"baseContentUrl": "https://github.com/mute-key/seti-poly/blob/master/",
+		"baseImagesUrl": "https://github.com/mute-key/seti-poly/raw/master/"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Seti_poly",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Seti_UX-color-theme.json",
+				"semanticHighlighting": false
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1739786841228,
+		"size": 140128
+	},
+	"extensionPack": [
+		"s-nlf-fh.glassit",
+		"miguelsolorio.symbols"
+	]
+}

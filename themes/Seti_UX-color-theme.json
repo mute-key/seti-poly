@@ -1,0 +1,226 @@
+// tab.activeForeground
+// tab.activeBackground
+// tab.border: Border to separate Tabs from each other.
+// tab.activeBorder: Bottom border for the active tab.
+// tab.selectedBorderTop
+// tab.selectedBackground
+// tab.selectedForeground
+// tab.unfocusedActiveBorderTop
+// editorPane.background: Background color of the editor pane visible on the left and right side of the centered editor layout.
+// sideBySideEditor.horizontalBorder: Color to separate two editors from each other when shown side by side in an editor group from top to bottom.
+// sideBySideEditor.verticalBorder: Color to separate two editors from each other when shown side by side in an editor group from left to right.
+// editor.selectionBackground: Color of the editor selection.
+// editor.selectionForeground: Color of the selected text for high contrast.
+// editor.inactiveSelectionBackground: Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
+// editor.selectionHighlightBackground: Color for regions with the same content as the selection. The color must not be opaque so as not to hide underlying decorations.
+// editor.selectionHighlightBorder: Border color for regions with the same content as the selection.
+// editor.wordHighlightBackground
+// editor.findMatchBackground
+// editor.findMatchForeground
+// editor.findMatchHighlightForeground
+// editor.findMatchHighlightBackground
+// "" : "",
+// "" : "",
+
+// editorGutter.background: Background color of the editor gutter. The gutter contains the glyph margins and the line numbers.
+// editorGutter.modifiedBackground: Editor gutter background color for lines that are modified.
+// editorGutter.addedBackground: Editor gutter background color for lines that are added.
+// editorGutter.deletedBackground: Editor gutter background color for lines that are deleted.
+// editorGutter.commentRangeForeground: Editor gutter decoration color for commenting ranges.
+// editorGutter.commentGlyphForeground: Editor gutter decoration color for commenting glyphs.
+// editorGutter.commentUnresolvedGlyphForeground: Editor gutter decoration color for commenting glyphs for unresolved comment threads.
+// editorGutter.foldingControlForeground: Color of the folding control in the editor gutter.
+
+// editorStickyScroll.background: Editor sticky scroll background color.
+// editorStickyScroll.border: Border color of sticky scroll in the editor.
+// editorStickyScroll.shadow: Shadow color of sticky scroll in the editor.
+// editorStickyScrollHover.background: Editor sticky scroll on hover background color.
+
+{
+    "name": "seti-quite",
+    "colors": {
+        // ====================================================================
+        // [git]
+        // ====================================================================      
+        "gitDecoration.addedResourceForeground":        "#c2c0b9",
+        "gitDecoration.modifiedResourceForeground":     "#c2c0b99c",
+        "gitDecoration.deletedResourceForeground":      "#ff5855",
+        "gitDecoration.renamedResourceForeground":      "#FFD200",
+        "gitDecoration.stageModifiedResourceForeground": "#009FFF",
+        // ====================================================================
+        // [test grid]
+        // ====================================================================      
+
+        
+        // "focusBorder":                                   "#ffbf00",
+        "foreground":                                   "#ffffff91",
+        "activityBar.background":                       "#0d1011",
+        // "activityBar.border":                            "#4f99d331",
+
+        "titleBar.activeBackground":                    "#0d1011",
+        "titleBar.inactiveBackground":                  "#0d1011",
+        "selection.background":                         "#252f3588",
+        // dropdown sidebar@itemlist panel@dropdown
+        "dropdown.background":                          "#0d1011",
+        "dropdown.listBackground":                      "#0d1011",
+        "dropdown.border":                              "#4f99d3ad",
+        "dropdown.foreground":                          "#f3f3f3",
+        // scroll and sourcecode minimap
+        // scrollbar.shadow
+        "scrollbar.shadow":                             "#131e21FF",
+        "scrollbarSlider.background":                   "#131e21",
+        "scrollbarSlider.activeBackground":             "#FFD200",
+        "scrollbarSlider.hoverBackground":              "#FFD200",
+        // 7a7a7a46
+        
+        
+
+        // ====================================================================
+        // [Editor]
+        // ====================================================================
+        "editor.background":                            "#0d1011",
+        "editor.foreground":                            "#999999",
+        "editor.selectionBackground":                   "#00000000",
+        "editor.lineHighlightBackground":               "#252f35",
+        "editor.hoverHighlightBackground":              "#6e8d9b44",
+        "editor.selectionHighlightBackground":          "#2b2b2b39",
+        "editor.findMatchBackground":                   "#23323844",
+        "editor.findMatchHighlightBackground":          "#25353b86",
+        "editor.wordHighlightBackground":               "#30303077",
+        "editor.wordHighlightTextBackground":            "#25353b86",
+        "editor.wordHighlightStrongBackground":          "#383f49b0",
+
+        "editorOverviewRuler.border":                   "#4f99d300",
+        // "editorGroup.border":                           "#6fa9ff5e",
+        "editorGroup.border":                           "#6fa9ff5e",
+        "editorGroupHeader.tabsBorder" :                "#529ad123",
+        "editorGroupHeader.tabsBackground":             "#0d1011",
+        "editorGroupHeader.noTabsBackground":           "#0d1011",
+        "editorCursor.foreground":                      "#aaaaaaaa",
+        "editorWhitespace.foreground":                  "#202729",
+        "editorLineNumber.foreground":                  "#5e6d7957",
+        "editorLineNumber.activeForeground":            "#52b100",
+        // "editorGroupHeader.tabsBackground":             "#181f23",
+        // "editorGutter.foldingControlForeground" :       "#ff0000",
+        // "sideBySideEditor.verticalBorder" :             "#529ad17c",
+        "sideBySideEditor.verticalBorder" :             "#ffffff",
+        "sideBySideEditor.horizontalBorder":            "#ffffff",
+        // "editorError.border":                            "#CD3F45",
+        "editorWidget.background":                      "#0d1011",
+        "editorHoverWidget.border":                     "#4f99d3",
+        "editorHoverWidget.background":                 "#0d1011cc",
+        "editorSuggestWidget.background":               "#0d1011",
+        "editorSuggestWidget.foreground":               "#999999",
+        "editorSuggestWidget.border":                   "#220000",
+        "editorSuggestWidget.highlightForeground":      "#999999",
+        "editorSuggestWidget.selectedBackground":       "#4f99d3d9",
+        "editorLink.activeForeground":                  "#0d1011",
+        "editorStickyScroll.background":                "#0d1011",
+
+        // ====================================================================
+        // [tab]
+        // ====================================================================
+        "tab.activeForeground":                         "#f3f3f38f",
+        "tab.activeBackground":                         "#7a7a7a46",
+
+        "tab.inactiveForeground": "#3d525c",
+        "tab.inactiveBackground": "#15191bb4",
+
+        "tab.unfocusedActiveForeground": "#3d525c",
+        "tab.unfocusedActiveBackground": "#15191bb4",
+
+        // tab.unfocusedInactiveForeground
+        // tab.unfocusedInactiveBackground
+
+
+        // tab.selectedBackground
+        // tab.selectedForeground
+        "tab.border":                                   "#3d525ccc",
+        // "tab.selectedForeground":                       "#000000",
+        // "tab.selectedForeground":                       "#00ff00",
+        // "tab.selectedBackground":                       "#7e7e7e71",
+        // "tab.activeForeground":                            "#ffffff",
+        // "tab.activeBackground":                         "#ff110086",
+        // "tab.activeBorderTop":                          "#4f99d3",
+        // "tab.activeBorderTop":                          "#c0c0c0",
+        // "tab.unfocusedActiveBorderTop":                 "#245d8a00",
+        // "tab.inactiveBackground":                       "#0d1011",
+        // "tab.activeBackground":                         "#0d1011",
+        // sidebar
+        "sideBar.foreground":                           "#b1b1b163",
+        "sideBar.border":                               "#4f99d331",
+        "sideBarTitle.foreground":                      "#eeeeee",
+        "sideBarSectionHeader.background":              "#141a1c",
+        "sideBarSectionHeader.foreground":              "#999999ff",
+        
+        // ====================================================================
+        // [list]
+        // ====================================================================
+        "list.hoverBackground":                         "#00000000",
+        "list.hoverForeground":                         "#f3f3f3",
+        "list.dropBackground":                          "#0d1011",
+        "list.focusBackground":                         "#252f35",
+        "list.focusForeground":                         "#ffffff91",
+        "list.highlightForeground":                     "#ff4444",
+        "list.activeSelectionBackground":               "#252f3590",
+        "list.activeSelectionForeground":               "#f3f3f3",
+        "list.inactiveSelectionBackground":             "#252f3590",
+        "list.inactiveSelectionForeground":             "#adadad",
+        "list.errorForeground":                         "#99999979",
+
+        // 
+        "debugExceptionWidget.background":              "#ffb042",
+        "debugExceptionWidget.border":                  "#ffb042",
+        "peekViewResult.selectionForeground":           "#999999",
+        "peekViewResult.fileForeground":                "#999999",
+        "peekViewResult.lineForeground":                "#999999",
+        "peekViewTitleDescription.foreground":          "#999999",
+        "peekViewTitleLabel.foreground":                "#999999",
+        "debugToolBar.background":                      "#0d1011",
+        "button.background":                            "#0d1011",
+        "button.foreground":                            "#ffffff",
+
+        // ====================================================================
+        // [input]
+        // ====================================================================
+        "input.border":                                 "#4f99d366",
+        "input.background":                             "#0d1011",
+        "input.foreground":                             "#ffffff",
+        "inputOption.activeBorder":                     "#0d1011",
+        "inputValidation.infoBackground":               "#0d1011",
+        "inputValidation.infoBorder":                   "#0d1011",
+
+        // ====================================================================
+        // [etc]
+        // ====================================================================
+        "badge.background":                             "#bf1300",
+        "progressBar.background":                       "#4f99d3",
+        "errorForeground":                              "#ec407add",
+        "extensionButton.prominentBackground":          "#cc3333",
+        "extensionButton.prominentHoverBackground":     "#6e8d9b88",
+        "gitDecoration.untrackedResourceForeground":    "#99999979",
+        "pickerGroup.foreground":                       "#cc9999",
+        "pickerGroup.border":                           "#4f99d333",
+        "sideBar.background":                           "#0d1011",
+        "panel.border":                                 "#4f99d331",
+        "statusBar.border":                             "#4f99d331",
+        "statusBar.background":                         "#11171a",
+        "statusBar.noFolderBackground":                 "#0d1011",
+        // 
+    },
+
+    // https://code.visualstudio.com/api/references/theme-color#side-bar
+    // gitDecoration.addedResourceForeground: Color for added Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.modifiedResourceForeground: Color for modified Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.deletedResourceForeground: Color for deleted Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.renamedResourceForeground: Color for renamed or copied Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.stageModifiedResourceForeground: Color for staged modifications git decorations. Used for file labels and the SCM viewlet.
+    // gitDecoration.stageDeletedResourceForeground: Color for staged deletions git decorations. Used for file labels and the SCM viewlet.
+    // gitDecoration.untrackedResourceForeground: Color for untracked Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.ignoredResourceForeground: Color for ignored Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.conflictingResourceForeground: Color for conflicting Git resources. Used for file labels and the SCM viewlet.
+    // gitDecoration.submoduleResourceForeground: Color for submodule resources.
+    // git.blame.editorDecorationForeground: Color for the blame editor decoration.
+    // Source Control Graph colors
+    "tokenColors": "./Seti.tmTheme"
+}
