@@ -139,7 +139,7 @@
         // "tab.selectedForeground":                       "#000000",
         // "tab.selectedForeground":                       "#00ff00",
         // "tab.selectedBackground":                       "#7e7e7e71",
-        // "tab.activeForeground":                            "#ffffff",
+        // "tab.activeForeground":                         "#ffffff",
         // "tab.activeBackground":                         "#ff110086",
         // "tab.activeBorderTop":                          "#4f99d3",
         // "tab.activeBorderTop":                          "#c0c0c0",
@@ -206,6 +206,7 @@
         "statusBar.border":                             "#4f99d331",
         "statusBar.background":                         "#11171a",
         "statusBar.noFolderBackground":                 "#0d1011",
+        "statusBar.debuggingBackground":                "#7c7c7c",
         // 
     },
 
